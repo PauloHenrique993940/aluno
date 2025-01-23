@@ -27,6 +27,9 @@ const alunos = [
     { nome: "Jorge", Nota: 6.0 },
     { nome: "Daniel", Nota: 6.2 },
     { nome: "Henrique", Nota: 8.0 }
+    {
+        Nome: "Izaque", Nota: 10
+    }
 ];
 
 // Criando a função para filtrar os alunos que têm a nota >= 6
