@@ -26,21 +26,15 @@ const alunos = [
     { nome: "Vagner", Nota: 4.0 },
     { nome: "Jorge", Nota: 6.0 },
     { nome: "Daniel", Nota: 6.2 },
-    { nome: "Henrique", Nota: 8.0 }
-    {
-        Nome: "Izaque", Nota: 10
-    }
+    { nome: "Henrique", Nota: 8.0 },
+    { nome: "Izaque", Nota: 10 } // Vírgula corrigida
 ];
 
 // Criando a função para filtrar os alunos que têm a nota >= 6
-
 function filtrarAprovados(alunos) {
     return alunos.filter(aluno => aluno.Nota >= 6); // Acessa "Nota" com N maiúsculo
-
-    
 }
 
 // Chamando a função e exibindo os alunos aprovados
 const aprovados = filtrarAprovados(alunos);
 console.log(aprovados);
-
